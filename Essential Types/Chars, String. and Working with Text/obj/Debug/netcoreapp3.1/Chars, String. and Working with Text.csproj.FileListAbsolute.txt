@@ -1,0 +1,13 @@
+C:\Users\Bon-p\OneDrive\Рабочий стол\Essential-Types\Essential Types\Chars, String. and Working with Text\bin\Debug\netcoreapp3.1\Chars, String. and Working with Text.exe
+C:\Users\Bon-p\OneDrive\Рабочий стол\Essential-Types\Essential Types\Chars, String. and Working with Text\bin\Debug\netcoreapp3.1\Chars, String. and Working with Text.deps.json
+C:\Users\Bon-p\OneDrive\Рабочий стол\Essential-Types\Essential Types\Chars, String. and Working with Text\bin\Debug\netcoreapp3.1\Chars, String. and Working with Text.runtimeconfig.json
+C:\Users\Bon-p\OneDrive\Рабочий стол\Essential-Types\Essential Types\Chars, String. and Working with Text\bin\Debug\netcoreapp3.1\Chars, String. and Working with Text.runtimeconfig.dev.json
+C:\Users\Bon-p\OneDrive\Рабочий стол\Essential-Types\Essential Types\Chars, String. and Working with Text\bin\Debug\netcoreapp3.1\Chars, String. and Working with Text.dll
+C:\Users\Bon-p\OneDrive\Рабочий стол\Essential-Types\Essential Types\Chars, String. and Working with Text\bin\Debug\netcoreapp3.1\Chars, String. and Working with Text.pdb
+C:\Users\Bon-p\OneDrive\Рабочий стол\Essential-Types\Essential Types\Chars, String. and Working with Text\obj\Debug\netcoreapp3.1\Chars, String. and Working with Text.csprojAssemblyReference.cache
+C:\Users\Bon-p\OneDrive\Рабочий стол\Essential-Types\Essential Types\Chars, String. and Working with Text\obj\Debug\netcoreapp3.1\Chars, String. and Working with Text.AssemblyInfoInputs.cache
+C:\Users\Bon-p\OneDrive\Рабочий стол\Essential-Types\Essential Types\Chars, String. and Working with Text\obj\Debug\netcoreapp3.1\Chars, String. and Working with Text.AssemblyInfo.cs
+C:\Users\Bon-p\OneDrive\Рабочий стол\Essential-Types\Essential Types\Chars, String. and Working with Text\obj\Debug\netcoreapp3.1\Chars, String. and Working with Text.csproj.CoreCompileInputs.cache
+C:\Users\Bon-p\OneDrive\Рабочий стол\Essential-Types\Essential Types\Chars, String. and Working with Text\obj\Debug\netcoreapp3.1\Chars, String. and Working with Text.dll
+C:\Users\Bon-p\OneDrive\Рабочий стол\Essential-Types\Essential Types\Chars, String. and Working with Text\obj\Debug\netcoreapp3.1\Chars, String. and Working with Text.pdb
+C:\Users\Bon-p\OneDrive\Рабочий стол\Essential-Types\Essential Types\Chars, String. and Working with Text\obj\Debug\netcoreapp3.1\Chars, String. and Working with Text.genruntimeconfig.cache
