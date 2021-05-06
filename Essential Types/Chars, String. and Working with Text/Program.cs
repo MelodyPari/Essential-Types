@@ -8,6 +8,19 @@ namespace Chars__String._and_Working_with_Text
     {
         static void Main(string[] args)
         {
+            bool eq;
+            string string1 = "encyclopaedia";
+            string string2 = "encyclopædia";
+            Console.WriteLine(string1);
+            Console.WriteLine(string2);
+            eq = string.Compare(string1, string2, StringComparison.InvariantCulture) == 0;
+            Console.WriteLine(eq);//true - для сравнения используются инвариантные региональные параметры и язык(не чувствительные к языку и региональным параметрам)
+            eq = string.Compare(string1, string2, StringComparison.CurrentCulture) == 0;
+            Console.WriteLine(eq);//true - для сравнения используются текущие региональные параметры и язык
+            eq = string.Compare(string1, string2, StringComparison.Ordinal) == 0;
+            Console.WriteLine(eq);//false - строки сравниваются без учета региональных параметров и языка
+
+
             Console.WriteLine("1. Пример проверок, что символ является числом/пробелом (через статические методы Char)");
             
             char digit = '1';

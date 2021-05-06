@@ -7,6 +7,18 @@ namespace Delegates__Custom_Attributes__Nullable_value_types
         internal delegate void DelegateChain();
         static void Main(string[] args)
         {
+            int a = 5;
+            int? b = null;
+            int? c = null;
+            int? e = 5;
+            Console.WriteLine(b.Equals(a));//false - Свойство HasValue для b равно false, а параметр метода Equals(a) не равен null
+            Console.WriteLine(b.Equals(c));//true - Свойству HasValue задано значение false, а параметру — null 
+                                            //(то есть два нулевых значения равны по определению).
+            Console.WriteLine(b.Equals(e));//false - свойство HasValue имеет значение true для b и e, а значение, 
+                                           //возвращаемое свойством Value, не равно значению параметра.
+            Console.WriteLine(e.Equals(a));//true - свойство HasValue имеет значение true, а значение, 
+                                           //возвращаемое свойством Value, равно значению параметра.
+
             Console.WriteLine("Цепочка делегатов");
             DelegateChain delegateChain = Func1;
             delegateChain += Func2;
