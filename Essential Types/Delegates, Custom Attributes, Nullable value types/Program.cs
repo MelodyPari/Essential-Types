@@ -33,10 +33,12 @@ namespace Delegates__Custom_Attributes__Nullable_value_types
 
             Console.WriteLine("Пример обобщенного делегата");
             Func<int, int, int> action;
+            Action<int> action2;
             action = Add;
-            Compare(100, 1, action);
+            action2 = PrintResult;
+            Compare(100, 1, action, action2);
             action = Subtract;
-            Compare(100, 1, action);
+            Compare(100, 1, action, action2);
 
             Console.WriteLine("Калькулятор с двумя методами: вычитание и сравнение");
             Calculator calculator = new Calculator();
@@ -77,10 +79,14 @@ namespace Delegates__Custom_Attributes__Nullable_value_types
         {
             return v1 - v2;
         }
-        static void Compare(int v1, int v2, Func<int, int, int> action)
+        static void Compare(int v1, int v2, Func<int, int, int> action, Action<int> action2)
         {
-            if (v1 < v2) Console.WriteLine(action(v2, v1));
-            else Console.WriteLine(action(v1, v2));   
+            if (v1 < v2) action2(action(v2, v1));
+            else action2(action(v1, v2));   
+        }
+        static void PrintResult(int v)
+        {
+             Console.WriteLine(v);
         }
     }
     [CustomAttribute(1000)]
