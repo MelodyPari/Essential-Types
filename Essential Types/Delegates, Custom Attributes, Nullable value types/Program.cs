@@ -14,8 +14,8 @@ namespace Delegates__Custom_Attributes__Nullable_value_types
             Console.WriteLine(b.Equals(a));//false - Свойство HasValue для b равно false, а параметр метода Equals(a) не равен null
             Console.WriteLine(b.Equals(c));//true - Свойству HasValue задано значение false, а параметру — null 
                                             //(то есть два нулевых значения равны по определению).
-            Console.WriteLine(b.Equals(e));//false - свойство HasValue имеет значение true для b и e, а значение, 
-                                           //возвращаемое свойством Value, не равно значению параметра.
+            Console.WriteLine(b.Equals(e));//false - свойство HasValue имеет значение true e и false для b, а значение, 
+                                           //возвращаемое свойством Value, не равно null.
             Console.WriteLine(e.Equals(a));//true - свойство HasValue имеет значение true, а значение, 
                                            //возвращаемое свойством Value, равно значению параметра.
 
